@@ -34,6 +34,6 @@ alt=
 "btn btn-default">Edit</button>
 <button type="reset" class=
 "btn btn-primary">Reset</button>
-</form>
+</form> 
 </body>
 </html>

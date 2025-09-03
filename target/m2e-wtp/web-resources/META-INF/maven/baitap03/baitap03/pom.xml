@@ -53,11 +53,19 @@
             <version>9.3.0</version>
         </dependency>
         
-        <dependency>
-		    <groupId>org.apache.commons</groupId>
-		    <artifactId>commons-fileupload2-jakarta-servlet6</artifactId>
-		    <version>2.0.0-M2</version>
-		</dependency>
+        <!-- Commons FileUpload cho jakarta.* -->
+	    <dependency>
+	        <groupId>org.apache.commons</groupId>
+	        <artifactId>commons-fileupload2-jakarta</artifactId>
+	        <version>2.0.0-M1</version>
+	    </dependency>
+	
+	    <!-- Commons IO (hỗ trợ đọc ghi file) -->
+	    <dependency>
+	        <groupId>commons-io</groupId>
+	        <artifactId>commons-io</artifactId>
+	        <version>2.16.1</version>
+	    </dependency>
     </dependencies>
 
     <build>
